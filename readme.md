@@ -3,7 +3,7 @@
 A small full-stack app that displays the iTunes **Top 10 Songs**.  
 The frontend fetches data from the backend, which seeds MongoDB from the iTunes RSS feed.
 
-##Screeshots From the project
+## Screeshots From the project
 [![Accueil](docs/images/image1.png)](docs/images/image1.png)
 [![Accueil](docs/images/image2.png)](docs/images/image2.png)
 
