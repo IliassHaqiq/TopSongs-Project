@@ -118,5 +118,7 @@ From the repo root (`topsongs-project`):
 5. Follow-up
    ```powershell
    db.topsongs.find().pretty()
-   ``
+   ```
+
+[![Accueil](docs/images/image3.png)](docs/images/image3.png)
    
