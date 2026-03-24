@@ -93,3 +93,30 @@ From the repo root (`topsongs-project`):
   - Set `HTTP/HTTPS proxy` (and credentials if required)
   - Restart Docker Desktop
 
+## View The Data Stored In MongoDb
+
+- In order to see the data that are stored in your database, you have to execute this commands
+
+1. Docker Ps:
+   ```powershell
+   docker ps
+   ```
+
+2. Then:
+   ```powershell
+   docker exec -it mongodb mongosh
+   ```
+3. Then Use The Data Base:
+   ```powershell
+   use musicdb
+   ```
+
+4. Then choose the right collection:
+   ```powershell
+   show collection
+   ```
+5. Follow-up
+   ```powershell
+   db.topsongs.find().pretty()
+   ``
+   
